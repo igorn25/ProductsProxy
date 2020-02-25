@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="Populate-Cache">
+    <DisplayName>Populate-Cache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment>cachedAuth</KeyFragment>
+    </CacheKey>
+    <CacheResource>CacheCreds</CacheResource>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>3600</TimeoutInSec>
+    </ExpirySettings>
+    <Source>request.header.Authorization</Source>
+</PopulateCache>

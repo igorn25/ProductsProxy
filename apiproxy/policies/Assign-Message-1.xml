@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
+    <DisplayName>Am-Set-Credentials</DisplayName>
+    <Properties/>
+    <!--<Set>
+        <Headers>
+            <Header name="clientId">72Hj5TvtAirT955eUcrAbXXkeMuoJ7D2</Header>
+        </Headers>
+    </Set> -->
+    <AssignVariable>
+        <Name>username</Name>
+        <Value>72Hj5TvtAirT955eUcrAbXXkeMuoJ7D2</Value>
+    </AssignVariable>
+    <AssignVariable>
+        <Name>password</Name>
+        <Value>7o44IikaztCFEeUA</Value>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

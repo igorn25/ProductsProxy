@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="Verify-OAuth-Token">
+    <DisplayName>Verify-OAuth-Token</DisplayName>
+    <Properties/>
+    <Attributes/>
+    <ExternalAuthorization>false</ExternalAuthorization>
+    <Operation>VerifyAccessToken</Operation>
+    <AccessTokenPrefix>Bearer</AccessTokenPrefix>
+</OAuthV2>
